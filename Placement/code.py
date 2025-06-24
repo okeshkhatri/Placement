@@ -5,7 +5,7 @@ from xgboost import XGBRegressor
 
 
 # Load trained model
-w = pickle.load(open('F:\INTERSHIP\Placement\placement (1).sav', 'rb'))  # <-- updated
+w = pickle.load(open('Placement/placement (1).sav', 'rb'))  # <-- updated
 
 def predict(input_data):
     input_array = np.asarray(input_data).reshape(1, -1)
